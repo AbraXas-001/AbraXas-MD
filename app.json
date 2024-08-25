@@ -1,0 +1,42 @@
+{
+  "name": "Rex-Emperor-MD",
+  "description": "A powerful WhatsApp bot with custom command support",
+  "repository": "https://github.com/username/Rex-Emperor-MD",
+  "env": {
+    "SUDO_NUMBER": {
+      "description": "The WhatsApp number with sudo (admin) privileges",
+      "required": true
+    },
+    "OWNER_NUMBER": {
+      "description": "The WhatsApp number of the bot owner",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "The name of the bot",
+      "required": true
+    },
+    "MONGODB_URI": {
+      "description": "MongoDB connection string for database operations",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Command prefix for the bot",
+      "value": "!",
+      "required": true
+    },
+    "MODE": {
+      "description": "Operating mode of the bot",
+      "value": "public",
+      "required": true
+    },
+    "SESSION_ID": {
+      "description": "A custom prefix for the session ID",
+      "required": true
+    },
+    "THEME": {
+      "description": "Default theme for the bot",
+      "value": "default",
+      "required": true
+    }
+  }
+}

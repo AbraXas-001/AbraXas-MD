@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: AbraXas-MD
+    env: node
+    plan: free
+    buildCommand: 'npm install'
+    startCommand: 'npm start'
+    envVars:
+      - key: PREFIX
+        value: '.'
+      - key: MODE
+        value: 'public'
+      - key: THEME
+        value: 'default'
+      - key: SUDO_NUMBER
+        value: '2348026733747'
+      - key: SESSIONID
+        value: 'your-session-id-here'
+      - key: MONGODB_URI
+        value: 'your-mongodb-uri-here'
+        
